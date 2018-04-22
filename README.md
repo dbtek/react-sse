@@ -1,5 +1,5 @@
 ## React SSE
-Simple State Management via an event emitter. Inspired from Choo, uses [nanobus](https://github.com/choojs/nanobus).
+Simple state management via an event emitter. Inspired from Choo, uses [nanobus](https://github.com/choojs/nanobus).
 
 ### Install
 ```bash
@@ -43,7 +43,7 @@ class Counter extends Component {
   }
 }
 
-StatefulCounter = withState(Counter)
+var StatefulCounter = withState(Counter)
 addStore(countStore)
 
 ReactDOM.render(<StatefulCounter/>, document.querySelector('#app'))
