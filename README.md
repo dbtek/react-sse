@@ -4,7 +4,7 @@ Simple state management via an event emitter. Inspired from Choo, uses [nanobus]
 ### Install
 ```bash
 $ yarn add react-sse
-// or
+# or
 $ npm i react-sse --save
 ```
 
