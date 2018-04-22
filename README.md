@@ -1,5 +1,5 @@
 ## React SSE
-Simple State Management via Event Emitter
+Simple State Management via an event emitter. Inspired from Choo, uses [nanobus](https://github.com/choojs/nanobus).
 
 ### Install
 ```bash
