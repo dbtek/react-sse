@@ -1,0 +1,13 @@
+{
+  "name": "react-sse",
+  "version": "0.1.0",
+  "description": "Simple state management via event emitter.",
+  "main": "index.js",
+  "repository": "https://github.com/dbtek/react-sse.git",
+  "author": "İsmail Demirbilek <ce.demirbilek@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "nanobus": "^4.3.3",
+    "react": "^16.3.2"
+  }
+}
