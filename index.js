@@ -24,7 +24,7 @@ export function withState (_Component) {
     }
 
     componentWillUnmount () {
-      emitter.removeEventListener('render', () => this.rerender())
+      emitter.removeListener('render', () => this.rerender())
     }
 
     rerender () {
