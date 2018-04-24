@@ -1,4 +1,4 @@
-## React SSE {}
+## React SSE { }
 Simple state management via an event emitter. Inspired from Choo, uses [nanobus](https://github.com/choojs/nanobus).
 
 ### Install
